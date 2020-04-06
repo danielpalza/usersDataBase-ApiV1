@@ -9,7 +9,7 @@ const routesV1 = require('./routes/v1');
 
 const configCors = require('./config-cors');
 dotenv.config();
-
+/* Api de datos de usuario */
 app.use(bodyParser.json());
 app.use(cors());
 
